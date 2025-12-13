@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #F7F6F4;
+  color: #111111;
+}
+
+.hero {
+  background-color: #5A1F2B;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 26px;
+  margin: 10px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.primary {
+  background-color: #C9A24D;
+  color: #111111;
+}
+
+.secondary {
+  border: 2px solid #C9A24D;
+  color: #C9A24D;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  margin-bottom: 20px;
+  color: #5A1F2B;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+}
