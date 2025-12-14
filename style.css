@@ -201,14 +201,10 @@ body {
   font-size: 2rem;
   cursor: pointer;
 
-  color: #C9A24D; /* GOLD */
-  background-color: rgba(0, 0, 0, 0.45); /* subtle contrast */
-  padding: 8px 12px;
-  border-radius: 6px;
-
+  color: #000000;   /* BLACK */
   z-index: 2000;
 }
-}
+
 
 /* SIDEBAR */
 .sidebar {
