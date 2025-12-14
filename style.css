@@ -85,6 +85,62 @@ body {
   font-weight: 600;
   margin-top: 30px;
 }
+.page-header {
+  background-color: #111111;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.books-section {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.book-card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+}
+
+.book-cover {
+  width: 260px;
+  height: 360px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #777;
+}
+
+.book-info h2 {
+  color: #5A1F2B;
+  margin-bottom: 15px;
+}
+
+.book-description {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.format {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 footer {
   text-align: center;
   padding: 30px;
