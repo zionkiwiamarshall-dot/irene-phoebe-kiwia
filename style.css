@@ -267,3 +267,33 @@ footer {
   padding: 30px;
   font-size: 0.9rem;
 }
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .cta-buttons a {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+  }
+}
