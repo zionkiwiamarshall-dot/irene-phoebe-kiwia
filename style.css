@@ -267,11 +267,20 @@ footer {
   padding: 30px;
   font-size: 0.9rem;
 }
-/* MOBILE FIXES */
+/* =========================
+   MOBILE HERO FIX (FOR REAL)
+   ========================= */
 @media (max-width: 768px) {
+
   .hero {
     height: auto;
-    padding: 80px 20px;
+    padding: 100px 20px 80px;
+  }
+
+  .hero-content {
+    position: static;
+    transform: none;
+    text-align: center;
   }
 
   .hero-content h1 {
@@ -287,13 +296,14 @@ footer {
   .cta-buttons {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 16px;
     align-items: center;
   }
 
   .cta-buttons a {
+    position: static;
+    transform: none;
     width: 100%;
     max-width: 260px;
-    text-align: center;
   }
 }
