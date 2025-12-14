@@ -197,10 +197,17 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  font-size: 1.8rem;
+
+  font-size: 2rem;
   cursor: pointer;
-  z-index: 1001;
-  color: #111111;
+
+  color: #C9A24D; /* GOLD */
+  background-color: rgba(0, 0, 0, 0.45); /* subtle contrast */
+  padding: 8px 12px;
+  border-radius: 6px;
+
+  z-index: 2000;
+}
 }
 
 /* SIDEBAR */
