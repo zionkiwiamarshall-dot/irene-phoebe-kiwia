@@ -175,12 +175,9 @@ body {
   line-height: 1.6;
 }
 
-.navbar {
+.
   background-color: #111111;
-  padding: 20px 40px;
-}
-
-.nav-container {
+  padding: 20px 
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -196,6 +193,28 @@ body {
   letter-spacing: 1px;
 }
 
+/* NAVBAR BASE */
+.navbar {
+  background-color: #111111;
+  padding: 20px;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand a {
+  color: #C9A24D;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* LINKS */
 .nav-links {
   list-style: none;
   display: flex;
