@@ -141,6 +141,39 @@ body {
   opacity: 0.6;
   cursor: not-allowed;
 }
+.podcast-intro {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.podcast-intro h2 {
+  color: #5A1F2B;
+  margin-bottom: 20px;
+}
+
+.episodes {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.episodes h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.episode-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.episode-desc {
+  margin: 15px 0;
+  line-height: 1.6;
+}
 footer {
   text-align: center;
   padding: 30px;
